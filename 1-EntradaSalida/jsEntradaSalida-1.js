@@ -7,8 +7,7 @@ function mostrar()
 	var segundoPrecio;
 	var apellido="nadie";
 
-	apellido= "Perez"
-	alert(apellido)
+	testeando git
 
 
 
