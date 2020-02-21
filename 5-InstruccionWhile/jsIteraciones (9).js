@@ -2,12 +2,16 @@ function mostrar()
 {
 
 	var contador=0;
-	// declarar variables
-	
+	var minimo;
+	var maximo;
+	var numeroIngresado;
 	var respuesta='si';
 
-	while(respuesta!='no')
+	while(IsNaN(respuesta=="si"))
 	{
+		contador=contador+1;
+		numeroIngresado=prompt("Por favor ingrese un numero")
+		numeroIngresado=parseInt(numeroIngresado);
 		
 	
 	}

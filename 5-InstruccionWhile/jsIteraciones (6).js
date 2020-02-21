@@ -3,15 +3,16 @@ function mostrar()
 
 	var contador=0;
 	var acumulador=0;
-	acumulador=prompt("Ingrese un numero por favor");
-	acumulador=parseInt(acumulador);
+	var numeroIngresado;
 
-	while(contador<6)
+
+	while(contador<5)
 	{
 		contador=contador+1;
-		acumulador=prompt("Ingrese otro numero por favor");
-		acumulador=parseInt(acumulador);
-		console.log(contador);
+		numeroIngresado=prompt("Ingrese otro numero por favor");
+		numeroIngresado=parseInt(numeroIngresado);
+		acumulador=acumulador+numeroIngresado;
+
 	}
 	
 
