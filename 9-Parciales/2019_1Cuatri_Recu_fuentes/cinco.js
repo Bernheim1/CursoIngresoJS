@@ -9,6 +9,7 @@ function mostrar()
 	var precioDia;
 	var precioBase;
 	var precioFinal;
+	var recargoCheque;
 
 	destino=document.getElementById('selecContinente').value;
 	formaPago=document.getElementById('selecPago').value;
@@ -17,6 +18,7 @@ function mostrar()
 	descuento=0;
 	descuentoExtra=0;
 	recargo=0;
+	recargoCheque=0;
 	precioDia=100;
 
 
@@ -53,12 +55,13 @@ function mostrar()
 			break;
 		default:
 			case "Cheque": 
-			recargo=15;
+			recargoCheque=15;
 			break;
 
 	}
 
 	descuento=descuento+descuentoExtra;
+	recargo=recargo+recargoCheque;
 
 	precioBase=precioDia*cantidadDias;
 
